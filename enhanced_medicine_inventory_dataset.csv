@@ -1,0 +1,201 @@
+Medicine Name,Category,Dosage Form,Strength,Batch Number,Count,Reorder Level,Cost Price ($),Selling Price ($),Profit Margin (%),Discount (%),Expiry Date,Manufacture Date,Storage Temperature,Supplier Name,Warehouse Location,Regulatory Approval Number,Prescription Required,Days to Expiry,Units Sold,Usage Instructions,Target Ailment
+Azithromycin,Antipyretic,Injection,5ml,BATCH-7775084,294,18,51.16,475.57,17.69,2,3/22/2025,2/18/2023,Room Temperature,Supplier Z,Warehouse A,FDA-67741341,TRUE,370,72,Use as directed,Diabetes
+Clarithromycin,Antibiotic,Capsule,500mg,BATCH-1705880,86,47,20.93,262.99,40.25,23,7/22/2025,1/21/2023,Room Temperature,Supplier W,Warehouse A,FDA-02108768,FALSE,603,7,Take after meals,Pain
+Amoxicillin,Antidiabetic,Tablet,10mg/ml,BATCH-3473940,196,49,92.88,301.35,49.3,28,6/11/2026,2/26/2023,Room Temperature,Supplier X,Warehouse B,FDA-02940100,FALSE,356,22,Use as directed,Diabetes
+Metformin,Antibiotic,Injection,500mg,BATCH-1878856,429,30,217.8,570.85,22.57,8,3/7/2025,8/28/2023,Room Temperature,Supplier X,Warehouse B,FDA-84823838,TRUE,712,40,Take after meals,Pain
+Metformin,Analgesic,Tablet,250mg,BATCH-6601317,209,28,85.08,386.84,14.64,29,9/4/2025,1/25/2024,Below 25°C,Supplier Y,Warehouse C,FDA-80072682,TRUE,214,28,Take before meals,Allergy
+Paracetamol,Antibiotic,Tablet,250mg,BATCH-1150176,59,16,107.12,486.08,39.58,2,7/28/2026,11/25/2024,2–8°C,Supplier X,Warehouse B,FDA-79143813,TRUE,480,78,Take after meals,Pain
+Losartan,Antipyretic,Capsule,100mg,BATCH-0470220,346,26,119.12,479.03,34.94,3,12/30/2026,2/5/2024,2–8°C,Supplier Y,Warehouse B,FDA-13268750,FALSE,417,98,Use as directed,Fever
+Aspirin,Antibiotic,Capsule,100mg,BATCH-8932844,254,49,240.36,449.34,47.38,30,9/2/2025,11/24/2023,Below 25°C,Supplier Y,Warehouse C,FDA-22790624,FALSE,393,36,Take after meals,Infection
+Losartan,Antacid,Tablet,500mg,BATCH-5554930,381,12,16.19,311.21,42.25,27,8/16/2026,1/20/2023,Below 25°C,Supplier Z,Warehouse C,FDA-98256349,TRUE,208,12,Take before meals,Fever
+Paracetamol,Antacid,Tablet,10mg/ml,BATCH-9787434,435,19,138.32,114.44,32.14,7,12/11/2026,11/24/2023,Room Temperature,Supplier W,Warehouse A,FDA-48967707,FALSE,2,85,Take after meals,Infection
+Metformin,Antipyretic,Ointment,500mg,BATCH-6472761,128,37,87.22,291.93,7.85,11,2/3/2025,10/11/2024,Below 25°C,Supplier X,Warehouse A,FDA-46858981,FALSE,509,68,Take before meals,Acidity
+Losartan,Analgesic,Tablet,5ml,BATCH-0269840,490,38,58.74,274.69,6.23,6,9/29/2026,5/23/2023,Below 25°C,Supplier W,Warehouse A,FDA-33897060,FALSE,429,60,Take after meals,Infection
+Simvastatin,Antibiotic,Drops,250mg,BATCH-5866287,232,27,34.6,30.25,13.37,0,8/3/2026,3/15/2024,Below 25°C,Supplier X,Warehouse B,FDA-73085473,TRUE,66,58,Take before meals,Acidity
+Simvastatin,Antidiabetic,Injection,5ml,BATCH-9256688,227,45,146.89,267.52,15.45,21,2/16/2025,10/21/2023,2–8°C,Supplier X,Warehouse C,FDA-29165726,FALSE,49,69,Use as directed,Fever
+Gabapentin,Antibiotic,Ointment,100mg,BATCH-2415630,10,34,109.93,423.93,32.55,30,9/24/2026,6/24/2024,Room Temperature,Supplier X,Warehouse A,FDA-60346977,TRUE,41,28,Take after meals,Diabetes
+Gabapentin,Antipyretic,Injection,500mg,BATCH-5563934,75,34,20.86,57.56,29.07,30,10/15/2026,5/7/2024,Below 25°C,Supplier W,Warehouse C,FDA-87931777,FALSE,101,9,Take before meals,Fever
+Amoxicillin,Analgesic,Tablet,500mg,BATCH-8394536,183,26,32.91,464.49,22.75,11,11/11/2025,5/31/2023,Room Temperature,Supplier Y,Warehouse B,FDA-22889693,FALSE,260,49,Use as directed,Acidity
+Ranitidine,Antacid,Drops,5ml,BATCH-7488205,428,43,241.39,246.67,46.16,12,8/22/2026,11/10/2023,2–8°C,Supplier Z,Warehouse B,FDA-52543351,TRUE,708,97,Take after meals,Allergy
+Omeprazole,Analgesic,Ointment,100mg,BATCH-9656654,391,42,10.61,20.35,33.48,28,7/18/2026,1/20/2023,2–8°C,Supplier X,Warehouse B,FDA-50324975,FALSE,241,4,Take before meals,Allergy
+Omeprazole,Antibiotic,Ointment,250mg,BATCH-6737838,223,29,199.92,575.24,34.2,23,8/23/2025,4/21/2023,Room Temperature,Supplier W,Warehouse A,FDA-54193449,FALSE,677,73,Take after meals,Fever
+Metformin,Antipyretic,Capsule,250mg,BATCH-2320526,141,48,152.03,292.61,48.79,26,12/27/2026,12/18/2023,Room Temperature,Supplier W,Warehouse C,FDA-69260951,TRUE,535,70,Take before meals,Allergy
+Amoxicillin,Antihistamine,Capsule,500mg,BATCH-3359665,227,17,20.28,236.41,9.94,14,3/27/2026,9/14/2024,Room Temperature,Supplier Y,Warehouse A,FDA-93634020,TRUE,161,34,Use as directed,Acidity
+Paracetamol,Antipyretic,Syrup,5ml,BATCH-9352817,286,47,46.39,262.48,15.73,26,11/25/2026,1/16/2023,Room Temperature,Supplier Z,Warehouse B,FDA-34284776,TRUE,303,26,Take after meals,Fever
+Paracetamol,Antibiotic,Syrup,10mg/ml,BATCH-6538409,184,22,164.13,63.31,9.54,28,5/30/2026,11/24/2023,Room Temperature,Supplier X,Warehouse B,FDA-37073727,TRUE,190,44,Use as directed,Infection
+Azithromycin,Antidiabetic,Injection,1g,BATCH-0824141,85,29,145.55,547.93,9.96,0,12/15/2026,3/21/2024,2–8°C,Supplier Z,Warehouse B,FDA-55544470,TRUE,663,88,Take before meals,Fever
+Gabapentin,Analgesic,Tablet,250mg,BATCH-2990100,406,14,79.51,358.93,42.21,16,12/5/2026,7/23/2023,Below 25°C,Supplier Y,Warehouse C,FDA-14023091,FALSE,664,62,Use as directed,Allergy
+Ibuprofen,Analgesic,Drops,10mg/ml,BATCH-8680401,197,27,141.58,263.33,22.65,29,8/7/2026,2/23/2023,Below 25°C,Supplier X,Warehouse B,FDA-27685718,FALSE,485,43,Take after meals,Allergy
+Ibuprofen,Antidiabetic,Drops,250mg,BATCH-4854981,220,10,141.1,338.89,9.77,5,3/20/2025,11/1/2023,2–8°C,Supplier W,Warehouse C,FDA-76965193,FALSE,245,96,Take after meals,Pain
+Losartan,Antihistamine,Capsule,100mg,BATCH-1941361,407,29,180.71,179.82,47.58,3,3/16/2025,5/5/2023,Room Temperature,Supplier Y,Warehouse A,FDA-55076189,FALSE,58,17,Take before meals,Pain
+Gabapentin,Analgesic,Capsule,10mg/ml,BATCH-7716729,268,17,214.48,160.33,15.22,14,2/20/2026,1/20/2024,Room Temperature,Supplier W,Warehouse B,FDA-73419115,FALSE,487,87,Take before meals,Acidity
+Azithromycin,Antidiabetic,Injection,10mg/ml,BATCH-3273481,219,50,113.64,345.46,11.35,16,1/2/2027,12/17/2024,Below 25°C,Supplier W,Warehouse A,FDA-03100421,FALSE,126,24,Take after meals,Allergy
+Ciprofloxacin,Antipyretic,Syrup,1g,BATCH-5146845,367,10,181.98,466.46,27.12,18,5/9/2026,9/13/2024,Room Temperature,Supplier Z,Warehouse A,FDA-48350721,FALSE,256,98,Take before meals,Fever
+Omeprazole,Antidiabetic,Capsule,5ml,BATCH-4966339,189,13,6.46,22.37,45.88,30,9/25/2026,6/17/2023,Below 25°C,Supplier X,Warehouse A,FDA-88834518,TRUE,421,78,Take after meals,Infection
+Metformin,Antibiotic,Drops,500mg,BATCH-7018473,272,39,242.31,492.85,29.64,11,11/25/2025,10/30/2024,2–8°C,Supplier Y,Warehouse A,FDA-65627589,FALSE,400,68,Use as directed,Allergy
+Ibuprofen,Antidiabetic,Drops,1g,BATCH-6306211,32,23,173.14,572.71,9.35,10,3/10/2026,7/22/2024,Room Temperature,Supplier W,Warehouse A,FDA-00891006,FALSE,151,29,Use as directed,Diabetes
+Simvastatin,Antihistamine,Injection,250mg,BATCH-4806392,462,50,67.88,223.47,32.33,10,1/2/2026,4/4/2024,Below 25°C,Supplier X,Warehouse B,FDA-78334392,FALSE,694,1,Take after meals,Acidity
+Ciprofloxacin,Antacid,Drops,100mg,BATCH-1171308,99,11,61.58,421.64,7.44,24,3/31/2026,2/26/2024,Below 25°C,Supplier Z,Warehouse B,FDA-00506804,FALSE,576,47,Take before meals,Pain
+Ciprofloxacin,Antibiotic,Syrup,100mg,BATCH-1827109,401,47,69.61,56.49,8.59,0,8/16/2025,11/21/2023,2–8°C,Supplier X,Warehouse C,FDA-21264883,FALSE,682,21,Take after meals,Allergy
+Cetirizine,Antidiabetic,Ointment,100mg,BATCH-5247621,328,12,204.98,152.49,43.25,21,6/4/2025,2/4/2023,Room Temperature,Supplier W,Warehouse B,FDA-52329284,FALSE,368,65,Take before meals,Diabetes
+Ibuprofen,Antibiotic,Capsule,10mg/ml,BATCH-6688911,201,49,31.11,291.09,18.79,15,12/13/2026,1/5/2024,Room Temperature,Supplier Z,Warehouse A,FDA-39500270,FALSE,55,17,Take before meals,Infection
+Ranitidine,Antidiabetic,Tablet,5ml,BATCH-8037550,424,38,44.83,107.53,8.03,21,1/1/2026,8/22/2024,Room Temperature,Supplier X,Warehouse C,FDA-96737675,TRUE,665,64,Use as directed,Allergy
+Ciprofloxacin,Analgesic,Tablet,500mg,BATCH-6922233,194,14,92.66,518.8,49.69,11,12/1/2026,4/10/2024,2–8°C,Supplier W,Warehouse C,FDA-58056663,FALSE,251,19,Take after meals,Diabetes
+Losartan,Antidiabetic,Tablet,250mg,BATCH-8894642,483,34,102.7,592.18,18.62,17,5/8/2026,6/8/2024,2–8°C,Supplier W,Warehouse A,FDA-21753492,FALSE,12,98,Take after meals,Pain
+Azithromycin,Antibiotic,Drops,500mg,BATCH-9939947,414,10,175.58,243.58,7.86,6,4/18/2025,8/25/2023,2–8°C,Supplier Z,Warehouse A,FDA-05172682,FALSE,638,98,Take after meals,Acidity
+Ciprofloxacin,Analgesic,Drops,500mg,BATCH-0723854,412,41,147.02,205.34,5.96,15,4/22/2025,12/23/2023,2–8°C,Supplier Z,Warehouse C,FDA-54172231,TRUE,560,94,Take before meals,Fever
+Omeprazole,Antidiabetic,Tablet,5ml,BATCH-2217154,371,31,73.41,17.27,27.97,13,9/24/2026,7/21/2023,Below 25°C,Supplier Z,Warehouse A,FDA-69251430,FALSE,602,2,Use as directed,Acidity
+Simvastatin,Antihistamine,Syrup,100mg,BATCH-7002108,226,19,15.39,27.23,41.18,30,12/3/2025,3/28/2024,2–8°C,Supplier X,Warehouse B,FDA-59044863,FALSE,402,23,Take after meals,Diabetes
+Ranitidine,Analgesic,Syrup,5ml,BATCH-6326864,215,42,70.75,250.46,33.83,30,1/2/2026,11/30/2023,2–8°C,Supplier Y,Warehouse B,FDA-47866470,TRUE,483,84,Take before meals,Allergy
+Clarithromycin,Analgesic,Capsule,1g,BATCH-3269359,449,41,31.98,370.87,26.98,30,12/17/2026,1/8/2025,2–8°C,Supplier W,Warehouse C,FDA-00442812,FALSE,2,34,Take after meals,Infection
+Azithromycin,Antipyretic,Syrup,5ml,BATCH-5154119,487,18,42.18,510.66,5.38,19,4/8/2026,3/23/2023,Room Temperature,Supplier X,Warehouse C,FDA-30455238,FALSE,161,62,Use as directed,Fever
+Metformin,Antidiabetic,Tablet,500mg,BATCH-4987523,51,24,53.42,486.61,29.64,9,6/14/2026,12/7/2023,Below 25°C,Supplier Y,Warehouse C,FDA-89546981,TRUE,287,7,Use as directed,Pain
+Ibuprofen,Analgesic,Syrup,1g,BATCH-5921355,419,29,86.31,38.47,23.26,21,8/6/2026,8/16/2024,Below 25°C,Supplier X,Warehouse C,FDA-26651077,TRUE,335,81,Take after meals,Allergy
+Cetirizine,Antihistamine,Tablet,5ml,BATCH-9361978,331,25,131.56,21.09,39.39,21,7/18/2025,6/2/2024,Below 25°C,Supplier W,Warehouse A,FDA-56854152,TRUE,58,9,Use as directed,Allergy
+Azithromycin,Antihistamine,Drops,10mg/ml,BATCH-2189527,38,20,172.73,338.67,14.47,26,12/20/2026,12/6/2023,Room Temperature,Supplier Y,Warehouse C,FDA-41185037,TRUE,676,30,Take before meals,Allergy
+Atorvastatin,Analgesic,Capsule,1g,BATCH-0231935,472,44,45.93,275.38,23.98,8,8/3/2026,3/17/2024,Room Temperature,Supplier X,Warehouse B,FDA-81609973,FALSE,330,85,Use as directed,Acidity
+Metformin,Antipyretic,Drops,10mg/ml,BATCH-1917601,33,25,199.27,434,18.06,0,9/25/2026,4/26/2023,Room Temperature,Supplier Z,Warehouse C,FDA-73239907,TRUE,692,23,Use as directed,Allergy
+Azithromycin,Antidiabetic,Injection,10mg/ml,BATCH-9988192,224,29,245.16,172.57,47.66,2,6/1/2026,8/17/2023,2–8°C,Supplier W,Warehouse A,FDA-27114701,FALSE,165,27,Use as directed,Diabetes
+Azithromycin,Antipyretic,Tablet,500mg,BATCH-8716439,315,21,163.58,322.84,9.34,2,4/24/2026,8/10/2023,Room Temperature,Supplier Y,Warehouse B,FDA-62302513,FALSE,536,97,Use as directed,Pain
+Cetirizine,Antidiabetic,Injection,250mg,BATCH-5662530,279,25,29.12,218.42,13.51,29,6/3/2025,7/10/2023,2–8°C,Supplier X,Warehouse A,FDA-01987087,FALSE,430,8,Use as directed,Pain
+Ciprofloxacin,Antidiabetic,Capsule,1g,BATCH-5669195,97,17,151.4,551.32,36.64,30,10/9/2026,7/14/2023,2–8°C,Supplier Y,Warehouse B,FDA-78710565,FALSE,458,91,Use as directed,Fever
+Amoxicillin,Antacid,Injection,10mg/ml,BATCH-3517561,209,20,249.36,129.98,19.14,14,8/15/2025,1/7/2024,Below 25°C,Supplier X,Warehouse B,FDA-30390962,TRUE,509,88,Take before meals,Fever
+Amoxicillin,Antipyretic,Drops,5ml,BATCH-1315567,234,12,44.59,497.29,19.1,25,1/24/2025,4/22/2024,2–8°C,Supplier Y,Warehouse A,FDA-97259136,TRUE,455,16,Take before meals,Allergy
+Ibuprofen,Antacid,Capsule,5ml,BATCH-2123030,268,27,241.29,69.08,37.65,17,10/6/2026,5/11/2023,Below 25°C,Supplier X,Warehouse C,FDA-15034048,FALSE,349,20,Take after meals,Infection
+Amoxicillin,Antihistamine,Capsule,500mg,BATCH-0088901,87,18,204.79,447.63,34.09,12,1/19/2025,2/20/2024,Below 25°C,Supplier X,Warehouse A,FDA-80224135,TRUE,701,18,Use as directed,Acidity
+Ranitidine,Analgesic,Tablet,100mg,BATCH-3186175,66,10,52.78,502.68,17.75,17,8/18/2025,12/16/2024,Below 25°C,Supplier Z,Warehouse C,FDA-94779075,TRUE,216,95,Take before meals,Pain
+Ciprofloxacin,Antipyretic,Syrup,10mg/ml,BATCH-8762371,422,45,40.97,153.94,31.52,13,1/29/2025,10/18/2023,2–8°C,Supplier Y,Warehouse A,FDA-46307149,TRUE,547,35,Take before meals,Fever
+Aspirin,Antibiotic,Ointment,100mg,BATCH-2100387,399,17,180.11,407.45,32.29,4,9/22/2025,8/26/2023,Below 25°C,Supplier Y,Warehouse C,FDA-90694849,TRUE,245,49,Take after meals,Diabetes
+Clarithromycin,Antidiabetic,Syrup,1g,BATCH-0657702,491,47,90.18,549.76,47.52,9,11/12/2025,3/8/2024,Below 25°C,Supplier Y,Warehouse B,FDA-50415227,FALSE,510,21,Take after meals,Fever
+Omeprazole,Antihistamine,Syrup,10mg/ml,BATCH-2329607,101,42,126.01,333.44,11,12,12/22/2025,12/16/2023,2–8°C,Supplier Z,Warehouse C,FDA-69779035,FALSE,633,21,Take after meals,Allergy
+Azithromycin,Antidiabetic,Injection,10mg/ml,BATCH-9166275,218,48,210.83,256.75,36.85,20,1/21/2026,2/18/2023,Room Temperature,Supplier Y,Warehouse C,FDA-50603773,TRUE,144,52,Take before meals,Pain
+Atorvastatin,Antihistamine,Ointment,10mg/ml,BATCH-9237226,42,38,183.54,429.17,41.76,29,9/2/2026,7/30/2024,Room Temperature,Supplier Y,Warehouse B,FDA-73946948,TRUE,269,38,Take after meals,Diabetes
+Amoxicillin,Analgesic,Syrup,100mg,BATCH-0784418,455,13,68,572.33,34.2,5,7/27/2026,3/4/2024,Room Temperature,Supplier X,Warehouse C,FDA-12055394,TRUE,415,32,Take after meals,Pain
+Ibuprofen,Antidiabetic,Drops,10mg/ml,BATCH-7199161,225,10,8.29,594.51,5.24,14,5/6/2025,2/28/2023,2–8°C,Supplier Z,Warehouse A,FDA-71694855,FALSE,316,90,Take after meals,Pain
+Omeprazole,Antihistamine,Ointment,5ml,BATCH-2763134,40,38,49.95,492.37,46.48,9,5/5/2026,9/13/2023,Room Temperature,Supplier X,Warehouse B,FDA-15444861,FALSE,307,29,Take before meals,Pain
+Ciprofloxacin,Antacid,Syrup,250mg,BATCH-7755365,226,19,108.76,588.01,19.38,24,1/30/2025,6/15/2023,Below 25°C,Supplier W,Warehouse A,FDA-56800054,TRUE,263,52,Use as directed,Acidity
+Azithromycin,Antidiabetic,Syrup,100mg,BATCH-6673693,296,41,183.7,412.25,24.06,1,8/26/2026,1/20/2024,Room Temperature,Supplier Z,Warehouse A,FDA-48675445,FALSE,312,95,Take before meals,Infection
+Metformin,Antidiabetic,Capsule,5ml,BATCH-5413242,202,15,40.3,467.89,24.33,2,5/6/2025,7/19/2024,Room Temperature,Supplier Z,Warehouse C,FDA-42195064,FALSE,474,57,Use as directed,Diabetes
+Cetirizine,Antidiabetic,Drops,10mg/ml,BATCH-3583819,275,34,83.56,23.23,37.85,13,9/25/2026,3/26/2024,2–8°C,Supplier Z,Warehouse A,FDA-51346839,FALSE,526,33,Take before meals,Pain
+Paracetamol,Analgesic,Ointment,10mg/ml,BATCH-8117440,362,17,9.48,263.7,48.34,13,3/27/2025,7/18/2024,Room Temperature,Supplier X,Warehouse C,FDA-92825054,TRUE,300,61,Use as directed,Infection
+Simvastatin,Antihistamine,Ointment,100mg,BATCH-9411197,490,17,243.15,189.41,42.43,5,7/13/2025,4/8/2024,Room Temperature,Supplier W,Warehouse B,FDA-69190500,TRUE,593,5,Take before meals,Pain
+Ciprofloxacin,Antidiabetic,Capsule,500mg,BATCH-9166488,13,27,83.98,446,38.89,8,9/30/2026,12/19/2024,2–8°C,Supplier Z,Warehouse C,FDA-11481772,TRUE,548,90,Use as directed,Allergy
+Azithromycin,Antidiabetic,Syrup,250mg,BATCH-6344465,231,41,217.17,525.79,13.53,14,8/23/2025,9/26/2024,Room Temperature,Supplier X,Warehouse C,FDA-47370097,FALSE,90,70,Use as directed,Infection
+Amoxicillin,Antibiotic,Injection,10mg/ml,BATCH-0161395,273,30,2.63,428.85,41.05,17,5/7/2026,2/7/2023,Below 25°C,Supplier Z,Warehouse B,FDA-14545412,FALSE,588,71,Take before meals,Diabetes
+Gabapentin,Antihistamine,Ointment,500mg,BATCH-0593837,402,28,101.66,470.22,33.27,21,10/12/2026,12/25/2023,Room Temperature,Supplier X,Warehouse B,FDA-44364862,FALSE,706,81,Take after meals,Infection
+Gabapentin,Antipyretic,Capsule,500mg,BATCH-9123924,154,40,21.11,247.81,14.03,23,10/4/2025,10/16/2024,Room Temperature,Supplier Z,Warehouse A,FDA-27298769,TRUE,585,9,Take before meals,Diabetes
+Simvastatin,Antacid,Capsule,1g,BATCH-2134414,350,26,207.15,580.49,30.4,30,5/20/2025,2/16/2023,Room Temperature,Supplier Z,Warehouse B,FDA-10440733,TRUE,286,4,Take before meals,Acidity
+Paracetamol,Antihistamine,Ointment,500mg,BATCH-9803124,272,39,118.4,344.14,49.33,10,12/15/2026,5/23/2023,2–8°C,Supplier Y,Warehouse B,FDA-04286901,TRUE,119,41,Use as directed,Infection
+Simvastatin,Antidiabetic,Syrup,1g,BATCH-3199999,176,30,66.12,80.12,8.41,26,11/10/2026,9/25/2024,Room Temperature,Supplier W,Warehouse C,FDA-51041714,FALSE,271,40,Use as directed,Allergy
+Omeprazole,Analgesic,Capsule,100mg,BATCH-0782122,387,10,181.76,519.86,48.31,23,11/21/2025,5/18/2023,Below 25°C,Supplier Z,Warehouse C,FDA-47538522,FALSE,543,39,Use as directed,Pain
+Metformin,Antidiabetic,Capsule,100mg,BATCH-6425443,468,15,69.56,73.9,20.44,17,9/9/2026,12/26/2024,Room Temperature,Supplier W,Warehouse B,FDA-93571524,FALSE,337,98,Take after meals,Infection
+Omeprazole,Analgesic,Capsule,100mg,BATCH-2974553,388,17,73.17,126.8,13.5,24,11/13/2025,11/28/2023,2–8°C,Supplier Y,Warehouse B,FDA-28158408,TRUE,660,41,Take after meals,Diabetes
+Paracetamol,Antihistamine,Drops,100mg,BATCH-7274585,244,29,155.08,32.05,36.8,6,7/9/2026,3/17/2023,Below 25°C,Supplier Z,Warehouse A,FDA-17672120,FALSE,422,7,Take before meals,Infection
+Aspirin,Antidiabetic,Tablet,10mg/ml,BATCH-8318309,290,20,200.04,367.31,15.59,14,1/16/2026,7/31/2023,Room Temperature,Supplier Y,Warehouse B,FDA-65162746,TRUE,90,72,Take before meals,Infection
+Paracetamol,Antipyretic,Drops,10mg/ml,BATCH-7909153,324,43,119.14,514,33.6,17,2/26/2025,7/2/2023,Below 25°C,Supplier W,Warehouse B,FDA-55337293,TRUE,146,30,Take before meals,Infection
+Paracetamol,Analgesic,Ointment,1g,BATCH-1907998,126,13,46.36,41.93,15.88,21,10/12/2026,7/21/2023,2–8°C,Supplier Z,Warehouse A,FDA-26481803,FALSE,221,90,Take before meals,Diabetes
+Paracetamol,Antipyretic,Injection,500mg,BATCH-1165992,461,33,83.59,325.78,28.45,19,10/7/2025,8/15/2024,2–8°C,Supplier Y,Warehouse C,FDA-49187099,TRUE,627,3,Use as directed,Allergy
+Metformin,Antibiotic,Injection,5ml,BATCH-1154488,262,44,84.06,63.96,41.93,17,6/8/2026,5/26/2024,2–8°C,Supplier Y,Warehouse A,FDA-64171556,TRUE,557,18,Use as directed,Allergy
+Cetirizine,Antihistamine,Capsule,500mg,BATCH-7907591,469,43,219.8,434.77,18.9,5,10/11/2025,6/16/2023,2–8°C,Supplier W,Warehouse C,FDA-97243958,TRUE,149,71,Use as directed,Diabetes
+Atorvastatin,Antipyretic,Ointment,500mg,BATCH-5645677,72,47,47.46,264.82,43.06,7,7/8/2025,9/7/2024,2–8°C,Supplier Y,Warehouse B,FDA-19605144,TRUE,629,68,Take after meals,Allergy
+Amoxicillin,Analgesic,Capsule,500mg,BATCH-8652313,247,39,190.21,533.04,34.14,13,3/23/2026,2/29/2024,2–8°C,Supplier Y,Warehouse B,FDA-02397727,FALSE,317,10,Use as directed,Allergy
+Aspirin,Antibiotic,Injection,250mg,BATCH-5604605,270,16,185.75,552.03,46.61,22,12/9/2026,4/28/2024,Below 25°C,Supplier Z,Warehouse A,FDA-57212386,TRUE,146,72,Take before meals,Fever
+Paracetamol,Antipyretic,Drops,500mg,BATCH-6926017,187,38,77.73,343.23,16.39,12,1/24/2025,1/29/2023,2–8°C,Supplier W,Warehouse C,FDA-90780676,TRUE,556,23,Take before meals,Fever
+Omeprazole,Antihistamine,Drops,500mg,BATCH-2110268,338,16,227.62,126.86,26.45,29,1/30/2025,6/5/2023,2–8°C,Supplier Y,Warehouse A,FDA-07694244,TRUE,52,70,Use as directed,Pain
+Azithromycin,Antihistamine,Drops,500mg,BATCH-2224648,181,10,179.09,565.7,20.06,10,4/1/2026,1/3/2024,Below 25°C,Supplier Y,Warehouse B,FDA-02258841,FALSE,489,13,Take before meals,Acidity
+Metformin,Antidiabetic,Ointment,100mg,BATCH-6029571,34,49,99.28,519.9,35.8,20,9/20/2025,6/16/2024,2–8°C,Supplier Z,Warehouse A,FDA-27688903,TRUE,614,50,Use as directed,Diabetes
+Metformin,Antipyretic,Injection,100mg,BATCH-4249083,79,20,70.97,126.52,43.9,7,9/21/2026,8/23/2023,Room Temperature,Supplier X,Warehouse C,FDA-55512428,FALSE,388,22,Take after meals,Infection
+Ranitidine,Antidiabetic,Ointment,250mg,BATCH-6949139,471,39,181.2,96.32,12.93,29,11/7/2025,10/11/2023,Below 25°C,Supplier Y,Warehouse B,FDA-71823434,FALSE,275,28,Use as directed,Diabetes
+Ciprofloxacin,Antihistamine,Syrup,250mg,BATCH-2281287,74,22,204.06,491.51,9.14,14,3/21/2025,12/2/2023,Below 25°C,Supplier Y,Warehouse B,FDA-10269506,TRUE,402,80,Use as directed,Fever
+Omeprazole,Analgesic,Capsule,5ml,BATCH-9565909,119,41,153.1,250.89,35.92,21,11/10/2025,5/17/2023,Room Temperature,Supplier W,Warehouse B,FDA-90151066,TRUE,569,97,Take after meals,Acidity
+Paracetamol,Analgesic,Injection,250mg,BATCH-4847356,384,33,222.75,142.58,34.36,5,9/13/2026,6/3/2023,2–8°C,Supplier Y,Warehouse B,FDA-94880880,TRUE,233,72,Take after meals,Infection
+Ciprofloxacin,Antacid,Capsule,100mg,BATCH-9824252,63,49,53.28,160.87,41.9,13,2/8/2026,11/9/2024,Room Temperature,Supplier W,Warehouse B,FDA-26044959,TRUE,477,84,Take before meals,Infection
+Simvastatin,Antidiabetic,Capsule,500mg,BATCH-1798953,127,27,179.3,129.69,18.14,25,9/12/2026,12/26/2024,Below 25°C,Supplier Z,Warehouse B,FDA-01709868,TRUE,430,43,Take before meals,Allergy
+Paracetamol,Antibiotic,Syrup,1g,BATCH-5786534,53,27,117.64,450.02,5.93,9,9/14/2025,3/22/2023,Below 25°C,Supplier X,Warehouse C,FDA-60624479,TRUE,247,61,Use as directed,Fever
+Cetirizine,Antidiabetic,Capsule,500mg,BATCH-3988462,165,35,87.41,255.97,17.49,10,9/11/2026,2/14/2024,Room Temperature,Supplier W,Warehouse A,FDA-37987836,TRUE,296,10,Use as directed,Acidity
+Clarithromycin,Antibiotic,Ointment,10mg/ml,BATCH-0704736,56,22,156.04,335.44,18.17,9,10/11/2025,8/20/2024,2–8°C,Supplier W,Warehouse A,FDA-89145776,TRUE,52,41,Use as directed,Allergy
+Clarithromycin,Antibiotic,Injection,500mg,BATCH-6090723,483,26,147.18,447.97,17.17,24,2/20/2026,1/24/2023,Below 25°C,Supplier Y,Warehouse B,FDA-79640588,FALSE,124,63,Take before meals,Infection
+Omeprazole,Antacid,Tablet,1g,BATCH-2113438,197,10,37.82,100.05,9.97,4,4/28/2025,9/20/2024,2–8°C,Supplier X,Warehouse B,FDA-93965923,TRUE,391,64,Use as directed,Acidity
+Atorvastatin,Antipyretic,Tablet,250mg,BATCH-1929136,434,49,68.52,357.66,8.81,9,1/23/2025,8/13/2024,2–8°C,Supplier Z,Warehouse B,FDA-38227038,TRUE,490,60,Take after meals,Acidity
+Ibuprofen,Antacid,Injection,1g,BATCH-2768416,243,44,209.79,380.18,15.13,7,2/3/2026,11/20/2024,Below 25°C,Supplier Y,Warehouse C,FDA-97527330,TRUE,530,31,Take before meals,Infection
+Ciprofloxacin,Antacid,Injection,500mg,BATCH-5925593,378,34,150.09,367.46,18.74,29,7/23/2026,5/22/2023,Below 25°C,Supplier Z,Warehouse C,FDA-65058161,FALSE,306,35,Take after meals,Fever
+Ibuprofen,Antihistamine,Tablet,250mg,BATCH-9886939,234,30,100.98,523.11,23.17,2,4/1/2025,12/13/2023,Below 25°C,Supplier X,Warehouse A,FDA-09675648,TRUE,569,92,Take after meals,Infection
+Clarithromycin,Antacid,Tablet,500mg,BATCH-4293440,110,46,155.49,535.98,41.72,29,6/29/2025,10/15/2024,2–8°C,Supplier X,Warehouse A,FDA-41060464,TRUE,308,34,Use as directed,Infection
+Azithromycin,Antidiabetic,Syrup,5ml,BATCH-3811754,194,41,139.18,237.06,5.7,28,11/14/2025,12/18/2023,Below 25°C,Supplier X,Warehouse C,FDA-87353209,TRUE,436,32,Take after meals,Allergy
+Atorvastatin,Antibiotic,Capsule,1g,BATCH-6451911,421,43,216.94,126.12,34.82,14,8/1/2026,5/18/2024,Room Temperature,Supplier X,Warehouse C,FDA-12416932,FALSE,563,39,Use as directed,Infection
+Losartan,Antipyretic,Syrup,10mg/ml,BATCH-5394994,133,37,120.54,37.67,21.66,13,1/1/2026,3/26/2024,Room Temperature,Supplier W,Warehouse A,FDA-29272654,FALSE,327,21,Take after meals,Infection
+Clarithromycin,Antidiabetic,Capsule,10mg/ml,BATCH-1729814,17,34,188.65,131.41,7.55,27,11/4/2025,5/23/2023,Room Temperature,Supplier X,Warehouse C,FDA-27654327,TRUE,693,48,Take after meals,Acidity
+Atorvastatin,Analgesic,Drops,100mg,BATCH-3262859,402,19,134.3,595.61,39.92,29,7/12/2026,12/25/2023,2–8°C,Supplier X,Warehouse C,FDA-96503193,FALSE,116,57,Take after meals,Allergy
+Cetirizine,Analgesic,Injection,10mg/ml,BATCH-0622454,206,35,183.15,76.21,5.72,22,1/28/2026,2/5/2023,Below 25°C,Supplier Y,Warehouse A,FDA-35843704,FALSE,243,71,Take after meals,Pain
+Aspirin,Antihistamine,Capsule,500mg,BATCH-5212247,272,13,90.07,381.28,40.77,15,5/9/2026,2/14/2024,Below 25°C,Supplier X,Warehouse A,FDA-41405247,FALSE,528,86,Use as directed,Fever
+Ibuprofen,Antidiabetic,Syrup,500mg,BATCH-7457960,25,13,185.08,171.1,41.06,23,7/31/2025,8/5/2024,2–8°C,Supplier Z,Warehouse A,FDA-75733174,TRUE,465,49,Take after meals,Diabetes
+Simvastatin,Antipyretic,Ointment,5ml,BATCH-6868986,366,21,164.42,220.16,28.99,11,7/22/2025,7/28/2024,2–8°C,Supplier X,Warehouse A,FDA-20170558,TRUE,6,13,Take after meals,Acidity
+Clarithromycin,Antihistamine,Injection,100mg,BATCH-0214116,218,23,181.76,277.42,23.7,17,1/31/2025,9/14/2023,Below 25°C,Supplier W,Warehouse A,FDA-08982123,TRUE,231,44,Use as directed,Diabetes
+Paracetamol,Antibiotic,Injection,500mg,BATCH-5082222,198,44,85.34,150.57,31.44,19,8/13/2026,12/7/2024,2–8°C,Supplier Z,Warehouse A,FDA-98128152,TRUE,433,47,Take after meals,Acidity
+Clarithromycin,Antipyretic,Capsule,100mg,BATCH-9566175,206,14,31.74,436.01,44.61,29,4/16/2025,11/3/2023,Below 25°C,Supplier X,Warehouse B,FDA-50488352,TRUE,711,46,Take before meals,Fever
+Ibuprofen,Antidiabetic,Injection,100mg,BATCH-8395999,250,46,79.19,409.67,10.65,20,10/18/2026,10/4/2023,2–8°C,Supplier X,Warehouse B,FDA-27716157,TRUE,280,58,Take before meals,Fever
+Ranitidine,Antibiotic,Drops,10mg/ml,BATCH-0247125,355,17,85.72,504.7,22.28,27,4/25/2026,8/4/2023,2–8°C,Supplier Z,Warehouse A,FDA-18135380,FALSE,348,94,Use as directed,Diabetes
+Metformin,Antidiabetic,Drops,500mg,BATCH-9110421,252,17,185.69,283.77,23.17,2,8/6/2025,12/18/2023,Room Temperature,Supplier Y,Warehouse A,FDA-46801525,TRUE,253,42,Use as directed,Pain
+Paracetamol,Analgesic,Capsule,10mg/ml,BATCH-4908757,22,34,118.81,578.15,31.89,12,7/8/2025,9/26/2023,2–8°C,Supplier W,Warehouse A,FDA-76067382,FALSE,439,25,Take before meals,Allergy
+Amoxicillin,Analgesic,Injection,250mg,BATCH-4480030,78,10,106.89,409.2,33.61,30,7/29/2026,2/24/2023,Below 25°C,Supplier W,Warehouse C,FDA-24271256,FALSE,614,37,Take after meals,Infection
+Losartan,Antihistamine,Drops,5ml,BATCH-2693702,338,39,121.43,487.49,23.38,12,2/6/2026,5/25/2023,Room Temperature,Supplier X,Warehouse C,FDA-79578168,FALSE,403,38,Use as directed,Diabetes
+Azithromycin,Antibiotic,Drops,100mg,BATCH-5253521,13,23,222.82,422.5,30.72,9,10/5/2025,12/13/2023,Room Temperature,Supplier X,Warehouse C,FDA-31831210,TRUE,571,90,Take after meals,Fever
+Omeprazole,Antidiabetic,Ointment,100mg,BATCH-9778425,72,28,76.26,238.67,41.55,23,10/26/2025,2/22/2024,Room Temperature,Supplier Z,Warehouse B,FDA-11312312,FALSE,553,57,Take before meals,Fever
+Atorvastatin,Antihistamine,Drops,10mg/ml,BATCH-0691675,164,41,53.52,50.52,47.46,16,11/22/2025,3/31/2024,Room Temperature,Supplier Y,Warehouse B,FDA-85093750,FALSE,586,9,Take after meals,Acidity
+Cetirizine,Antipyretic,Injection,250mg,BATCH-0989346,12,13,219.35,344.07,14.26,15,10/21/2026,6/15/2023,Below 25°C,Supplier X,Warehouse C,FDA-88684863,FALSE,334,35,Use as directed,Pain
+Ciprofloxacin,Antipyretic,Drops,250mg,BATCH-6765325,348,22,130.98,38.45,45.71,3,10/2/2026,10/4/2023,Room Temperature,Supplier X,Warehouse C,FDA-06657247,FALSE,637,70,Take after meals,Fever
+Paracetamol,Antihistamine,Injection,5ml,BATCH-6101130,196,11,149.7,23.37,14.76,12,9/13/2026,2/10/2024,Below 25°C,Supplier Y,Warehouse B,FDA-50306312,FALSE,698,14,Take after meals,Allergy
+Metformin,Analgesic,Syrup,100mg,BATCH-5812714,419,42,78.7,368.89,40.22,7,9/11/2025,7/25/2023,Below 25°C,Supplier X,Warehouse B,FDA-71064104,FALSE,719,49,Use as directed,Acidity
+Atorvastatin,Antihistamine,Drops,250mg,BATCH-5148838,160,13,232.63,374.31,41.25,28,5/4/2025,4/6/2024,Room Temperature,Supplier Y,Warehouse B,FDA-22716627,TRUE,229,65,Take before meals,Infection
+Metformin,Antihistamine,Syrup,5ml,BATCH-2774883,80,21,30.25,152.64,47.1,25,5/7/2026,7/23/2023,Below 25°C,Supplier W,Warehouse C,FDA-03748819,TRUE,704,64,Take before meals,Pain
+Clarithromycin,Antidiabetic,Tablet,5ml,BATCH-8927928,199,49,72.97,512.75,35.08,28,10/18/2025,4/26/2023,Below 25°C,Supplier X,Warehouse B,FDA-00421746,FALSE,397,20,Use as directed,Diabetes
+Omeprazole,Antipyretic,Drops,1g,BATCH-7137086,69,27,87.98,576.14,30.6,18,1/14/2025,11/12/2024,Room Temperature,Supplier X,Warehouse B,FDA-18347266,FALSE,730,33,Take before meals,Allergy
+Clarithromycin,Analgesic,Capsule,100mg,BATCH-1176774,116,46,231.34,301.25,42.66,30,7/27/2025,5/29/2023,Room Temperature,Supplier W,Warehouse A,FDA-21335538,TRUE,228,95,Take after meals,Infection
+Gabapentin,Antacid,Drops,500mg,BATCH-0799804,347,17,156.98,554.62,13.4,6,7/13/2026,12/28/2024,2–8°C,Supplier Y,Warehouse C,FDA-42713694,TRUE,104,83,Take before meals,Infection
+Metformin,Antihistamine,Syrup,1g,BATCH-0095088,222,19,108.7,439.62,43.97,19,12/25/2026,12/2/2023,Below 25°C,Supplier Z,Warehouse C,FDA-57814875,FALSE,244,68,Take before meals,Infection
+Simvastatin,Antacid,Ointment,100mg,BATCH-4472032,62,40,29.39,398.63,45.3,23,8/28/2026,2/1/2024,Room Temperature,Supplier W,Warehouse B,FDA-28443060,FALSE,697,99,Take after meals,Infection
+Azithromycin,Antipyretic,Tablet,250mg,BATCH-0230483,169,14,89.5,391.58,40.8,0,10/1/2026,12/29/2023,Room Temperature,Supplier Z,Warehouse B,FDA-25228435,FALSE,409,26,Use as directed,Allergy
+Ranitidine,Antipyretic,Syrup,250mg,BATCH-8612872,306,14,187.43,552.09,30.79,15,5/24/2025,5/22/2023,Room Temperature,Supplier X,Warehouse C,FDA-68071122,FALSE,235,99,Take after meals,Allergy
+Gabapentin,Antidiabetic,Ointment,1g,BATCH-2882424,190,32,88.79,113.83,42.63,9,12/30/2025,2/23/2024,Below 25°C,Supplier Z,Warehouse A,FDA-65827541,FALSE,494,42,Take after meals,Infection
+Gabapentin,Antidiabetic,Injection,100mg,BATCH-7144482,87,12,132.52,170.69,21.44,27,4/20/2025,6/24/2023,Room Temperature,Supplier W,Warehouse B,FDA-51494585,FALSE,548,69,Use as directed,Acidity
+Gabapentin,Antipyretic,Tablet,250mg,BATCH-0252454,448,12,51.59,177.83,6.85,30,6/12/2026,9/18/2023,Below 25°C,Supplier X,Warehouse B,FDA-11631789,TRUE,555,40,Take after meals,Diabetes
+Losartan,Antidiabetic,Capsule,10mg/ml,BATCH-6346024,310,30,113.08,317.39,12,14,3/18/2025,8/19/2023,2–8°C,Supplier Z,Warehouse A,FDA-77235449,FALSE,721,100,Use as directed,Acidity
+Metformin,Antihistamine,Drops,10mg/ml,BATCH-0502388,78,39,72.14,155.55,41.86,26,6/8/2026,2/22/2023,2–8°C,Supplier X,Warehouse C,FDA-95478896,TRUE,521,96,Use as directed,Fever
+Clarithromycin,Antacid,Drops,100mg,BATCH-0060923,18,37,63.6,208.47,44.51,17,7/11/2026,7/1/2023,Room Temperature,Supplier Y,Warehouse C,FDA-12095573,FALSE,657,46,Take before meals,Fever
+Atorvastatin,Antidiabetic,Tablet,10mg/ml,BATCH-4946080,129,46,142.75,494.83,48.43,3,12/20/2026,8/17/2024,Room Temperature,Supplier X,Warehouse A,FDA-75330847,FALSE,44,82,Use as directed,Acidity
+Ibuprofen,Antibiotic,Injection,500mg,BATCH-4146526,422,40,93.11,181.8,14.72,2,1/9/2027,4/2/2023,2–8°C,Supplier Y,Warehouse C,FDA-15333232,TRUE,726,44,Use as directed,Diabetes
+Gabapentin,Antacid,Capsule,5ml,BATCH-7190785,263,50,126.19,534.54,48.76,22,2/26/2026,6/11/2023,Room Temperature,Supplier Y,Warehouse C,FDA-78025338,TRUE,9,22,Use as directed,Infection
+Omeprazole,Analgesic,Tablet,10mg/ml,BATCH-5525901,125,41,90.43,77.96,37.19,4,11/5/2026,12/3/2024,2–8°C,Supplier X,Warehouse C,FDA-89795722,TRUE,656,73,Use as directed,Diabetes
+Ranitidine,Antihistamine,Capsule,5ml,BATCH-5641532,385,22,36,573.92,48.8,18,9/18/2026,8/6/2024,Below 25°C,Supplier Y,Warehouse C,FDA-21447631,FALSE,513,78,Take before meals,Infection
+Atorvastatin,Antibiotic,Tablet,1g,BATCH-7729786,235,44,129.76,347.02,6.95,8,2/27/2025,7/13/2023,Room Temperature,Supplier Z,Warehouse A,FDA-70630271,TRUE,483,46,Take after meals,Diabetes
+Omeprazole,Antipyretic,Syrup,500mg,BATCH-7750467,232,33,75.75,403.53,22.44,19,4/3/2025,5/28/2023,Below 25°C,Supplier Z,Warehouse C,FDA-23227518,TRUE,153,68,Take after meals,Acidity
+Aspirin,Analgesic,Ointment,10mg/ml,BATCH-6156267,301,17,179.55,304.17,5.22,30,10/23/2025,2/4/2023,Room Temperature,Supplier X,Warehouse C,FDA-51475908,FALSE,727,84,Take before meals,Allergy
+Azithromycin,Antihistamine,Injection,100mg,BATCH-2677065,467,44,224.45,540.8,46.19,10,11/10/2026,6/9/2023,Below 25°C,Supplier W,Warehouse A,FDA-98312864,FALSE,349,99,Take after meals,Diabetes
+Ranitidine,Antibiotic,Drops,10mg/ml,BATCH-7873902,122,41,199.27,577.94,14.68,7,10/16/2026,8/23/2024,2–8°C,Supplier X,Warehouse C,FDA-62915718,TRUE,509,28,Take after meals,Pain
+Amoxicillin,Analgesic,Injection,250mg,BATCH-6907582,82,23,132.55,520.88,9.67,29,8/5/2025,7/5/2023,2–8°C,Supplier Z,Warehouse C,FDA-29420574,TRUE,235,7,Take before meals,Acidity
+Losartan,Antihistamine,Ointment,10mg/ml,BATCH-9067566,156,15,3.19,111.77,41.2,7,3/31/2026,6/26/2023,Room Temperature,Supplier Z,Warehouse A,FDA-83058591,TRUE,499,42,Take after meals,Acidity
+Paracetamol,Antidiabetic,Tablet,100mg,BATCH-6923884,160,48,102.26,229.96,18.22,30,8/13/2025,3/2/2024,2–8°C,Supplier Z,Warehouse B,FDA-03102151,TRUE,122,17,Use as directed,Allergy
+Paracetamol,Analgesic,Injection,250mg,BATCH-5937618,287,40,158.63,151.86,31.72,3,5/20/2026,11/10/2023,2–8°C,Supplier W,Warehouse C,FDA-27598729,TRUE,370,12,Take after meals,Infection
+Gabapentin,Analgesic,Injection,100mg,BATCH-6301268,74,24,191.29,59.7,7.11,30,2/24/2026,8/9/2023,2–8°C,Supplier W,Warehouse C,FDA-58290026,TRUE,468,5,Take before meals,Diabetes
+Atorvastatin,Antihistamine,Capsule,500mg,BATCH-4456699,72,42,58.19,501.82,23.17,30,5/4/2026,12/26/2023,Below 25°C,Supplier X,Warehouse C,FDA-73594339,FALSE,93,51,Use as directed,Infection
+Omeprazole,Antacid,Injection,1g,BATCH-7466979,288,22,236.63,493.69,38.27,8,1/5/2026,5/10/2024,Room Temperature,Supplier X,Warehouse A,FDA-38939353,TRUE,263,12,Use as directed,Allergy
+Ibuprofen,Analgesic,Drops,10mg/ml,BATCH-1226896,423,26,150.3,448.12,5.61,16,8/7/2026,7/29/2024,Below 25°C,Supplier Z,Warehouse A,FDA-06374795,FALSE,260,52,Use as directed,Acidity
+Metformin,Antihistamine,Injection,500mg,BATCH-2353466,423,22,67.39,87.16,37.39,11,4/30/2025,2/16/2024,Room Temperature,Supplier Y,Warehouse C,FDA-16747768,FALSE,102,65,Take before meals,Diabetes
+Amoxicillin,Analgesic,Tablet,500mg,BATCH-4643531,494,13,47.65,136.15,40.7,2,1/3/2027,9/24/2024,2–8°C,Supplier W,Warehouse C,FDA-04999079,TRUE,442,48,Take before meals,Infection
+Cetirizine,Antipyretic,Tablet,100mg,BATCH-8391534,315,30,35.02,467.72,31.76,19,4/9/2025,4/4/2024,Room Temperature,Supplier Y,Warehouse C,FDA-61150698,FALSE,333,65,Take before meals,Acidity
+Omeprazole,Antibiotic,Drops,5ml,BATCH-1787886,457,21,243.93,33.44,26.31,7,10/16/2025,10/11/2023,2–8°C,Supplier Y,Warehouse C,FDA-11688459,TRUE,254,56,Take after meals,Allergy
+Paracetamol,Antidiabetic,Injection,5ml,BATCH-0547150,127,11,54.46,532.21,40.56,27,9/3/2025,11/9/2024,Below 25°C,Supplier X,Warehouse A,FDA-58700980,FALSE,122,36,Take before meals,Diabetes
+Metformin,Antihistamine,Drops,500mg,BATCH-0378590,258,23,44.89,492.31,6.48,25,7/17/2025,6/19/2024,Below 25°C,Supplier W,Warehouse A,FDA-04141607,FALSE,501,5,Take after meals,Acidity
+Metformin,Antihistamine,Injection,100mg,BATCH-7320799,362,25,221.28,134.55,33.15,5,10/30/2025,2/16/2023,2–8°C,Supplier X,Warehouse C,FDA-88388511,FALSE,385,96,Take before meals,Infection
+Cetirizine,Antacid,Drops,10mg/ml,BATCH-8807942,304,40,48.88,438.98,13.94,8,5/29/2025,8/16/2023,Below 25°C,Supplier X,Warehouse B,FDA-33782181,TRUE,656,43,Use as directed,Infection
+Ibuprofen,Antacid,Ointment,100mg,BATCH-2550977,142,40,94.49,20.84,36.27,23,10/21/2025,11/30/2024,2–8°C,Supplier Y,Warehouse B,FDA-32495765,FALSE,487,85,Take before meals,Pain
+Metformin,Antipyretic,Drops,100mg,BATCH-8534089,179,46,191.15,576.46,38.93,14,11/29/2025,12/2/2023,Below 25°C,Supplier W,Warehouse C,FDA-84273943,FALSE,456,53,Use as directed,Acidity
+Metformin,Antibiotic,Ointment,500mg,BATCH-3382014,192,18,249.28,175.29,12.14,7,6/13/2026,2/17/2023,2–8°C,Supplier W,Warehouse B,FDA-92225270,TRUE,134,12,Take after meals,Allergy
+Omeprazole,Antacid,Drops,5ml,BATCH-2774251,19,40,178.57,134.91,20.06,18,4/21/2025,6/13/2024,2–8°C,Supplier Y,Warehouse B,FDA-00074802,FALSE,455,25,Take after meals,Allergy
+Omeprazole,Antidiabetic,Drops,250mg,BATCH-8249031,285,34,144.71,367.63,15.58,25,9/21/2026,2/23/2023,2–8°C,Supplier Y,Warehouse A,FDA-02636625,TRUE,585,67,Use as directed,Pain
+Losartan,Antidiabetic,Tablet,250mg,BATCH-6587776,384,23,140.32,209.78,28.35,18,6/5/2026,3/22/2023,Below 25°C,Supplier X,Warehouse C,FDA-24942664,FALSE,565,32,Use as directed,Diabetes
+Paracetamol,Analgesic,Tablet,100mg,BATCH-2275284,339,12,107.13,486.09,16.48,7,11/20/2025,2/11/2024,2–8°C,Supplier W,Warehouse B,FDA-06213078,FALSE,659,44,Take before meals,Fever
+Aspirin,Analgesic,Syrup,1g,BATCH-3596173,152,19,234.66,557.08,41.15,28,11/2/2026,6/17/2023,Below 25°C,Supplier W,Warehouse A,FDA-24705356,TRUE,336,80,Take before meals,Fever
+Ibuprofen,Antipyretic,Injection,100mg,BATCH-3949222,47,42,48.55,596.85,45.12,20,12/6/2026,2/13/2023,Room Temperature,Supplier Y,Warehouse C,FDA-40075138,FALSE,264,32,Take before meals,Acidity
+Cetirizine,Antidiabetic,Tablet,5ml,BATCH-8757891,11,21,207.97,63.07,7.01,25,4/27/2025,10/5/2023,Below 25°C,Supplier Y,Warehouse C,FDA-39367254,TRUE,142,75,Take before meals,Acidity
+Simvastatin,Antipyretic,Capsule,250mg,BATCH-3033650,44,16,45.46,183.89,16.11,8,9/10/2025,4/1/2024,Below 25°C,Supplier W,Warehouse C,FDA-36186036,TRUE,522,77,Use as directed,Pain
