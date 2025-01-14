@@ -94,7 +94,7 @@ if st.session_state.selected_section == "📊 Overview":
         col1.metric("Unique Medicines", filtered_data['Medicine Name'].nunique(), border=True)
         col2.metric("Avg Units in Stock", round(filtered_data['Count'].mean(), 0), border=True)
         col3.metric("No.of Tablets Expiring Soon", filtered_data[filtered_data['Days to Expiry'] <= 30]['Count'].sum(), border=True)
-        col4.metric("Total Categories", filtered_data['Batch Number'].nunique(), border=True)
+        col4.metric("Total Batches", filtered_data['Batch Number'].nunique(), border=True)
         st.divider()
     
         # Charts
@@ -102,7 +102,7 @@ if st.session_state.selected_section == "📊 Overview":
         col1, col2 = st.columns(2)
         
         with col1:
-            top_medicines = filtered_data[['Medicine Name', 'Total Revenue']].sort_values(by='Total Revenue', ascending=False).head(10)
+            top_medicines = (filtered_data.groupby('Medicine Name', as_index=False)['Total Revenue'].sum().sort_values(by='Total Revenue', ascending=False).head(10))
             st.markdown("Top 10 Medicines by Revenue")
             st.dataframe(top_medicines,hide_index=True,use_container_width=True)
     
@@ -140,7 +140,7 @@ if st.session_state.selected_section == "📊 Overview":
         col1.metric("Unique Medicines", data['Medicine Name'].nunique(), border=True)
         col2.metric("Avg Units in Stock", round(data['Count'].mean(), 0), border=True)
         col3.metric("No.of Tablets Expiring Soon", data[data['Days to Expiry'] <= 30]['Count'].sum(), border=True)
-        col4.metric("Total Categories", data['Batch Number'].nunique(), border=True)
+        col4.metric("Total Batches", data['Batch Number'].nunique(), border=True)
         st.divider()
     
         # Charts
@@ -148,7 +148,7 @@ if st.session_state.selected_section == "📊 Overview":
         col1, col2 = st.columns(2)
         
         with col1:
-            top_medicines = data[['Medicine Name', 'Total Revenue']].sort_values(by='Total Revenue', ascending=False).head(10)
+            top_medicines = (filtered_data.groupby('Medicine Name', as_index=False)['Total Revenue'].sum().sort_values(by='Total Revenue', ascending=False).head(10))
             st.markdown("Top 10 Medicines by Revenue")
             st.dataframe(top_medicines,hide_index=True,use_container_width=True)
     
@@ -225,7 +225,7 @@ elif st.session_state.selected_section == "💰 Financial Metrics":
         col1, col2, col3, col4 = st.columns(4)
         col1.metric("Avg Cost Price", round(filtered_data['Cost Price ($)'].mean(), 2), border=True)
         col2.metric("Avg Selling Price", round(filtered_data['Selling Price ($)'].mean(), 2), border=True)
-        col3.metric("Total Discounts", round(filtered_data['Discount (%)'].sum(), 2), border=True)
+        col3.metric("Total Discounts in %", round(filtered_data['Discount (%)'].mean(), 2), border=True)
         col4.metric("Profit Margin", round(filtered_data['Profit Margin (%)'].mean(), 2), border=True)
         st.divider()
     
@@ -257,7 +257,7 @@ elif st.session_state.selected_section == "💰 Financial Metrics":
         col1, col2, col3, col4 = st.columns(4)
         col1.metric("Avg Cost Price", round(data['Cost Price ($)'].mean(), 2), "$", border=True)
         col2.metric("Avg Selling Price", round(data['Selling Price ($)'].mean(), 2), "$", border=True)
-        col3.metric("Total Discounts", round(data['Discount (%)'].sum(), 2), "%", border=True)
+        col3.metric("Total Discounts in %", round(data['Discount (%)'].mean(), 2), "%", border=True)
         col4.metric("Profit Margin", round(data['Profit Margin (%)'].mean(), 2), "%", border=True)
     
         # Charts
@@ -321,9 +321,10 @@ elif st.session_state.selected_section == "📈 Performance Metrics":
         # KPI Cards
         col1, col2, col3, col4 = st.columns(4)
         col1.metric("Total Units Sold", filtered_data['Units Sold'].sum(), border=True)
-        col2.metric("High Demand Medicines", filtered_data[filtered_data['Units Sold'] > 50]['Medicine Name'].nunique(), border=True)
+        high_demand_medicines = (filtered_data.groupby('Medicine Name', as_index=False)['Units Sold'].sum().query("`Units Sold` > 800").nunique())
+        col2.metric("High Demand Medicines", high_demand_medicines['Medicine Name'], border=True)
         col3.metric("Avg Units Sold", round(filtered_data['Units Sold'].mean(), 0), border=True)
-        col4.metric("Top Seller", filtered_data.loc[filtered_data['Units Sold'].idxmax(), 'Medicine Name'], border=True)
+        col4.metric("Top Seller", high_demand_medicines.loc[high_demand_medicines['Units Sold'].idxmax(), 'Medicine Name'], border=True)
         st.divider()
     
         # Charts
@@ -393,9 +394,10 @@ elif st.session_state.selected_section == "📈 Performance Metrics":
         # KPI Cards
         col1, col2, col3, col4 = st.columns(4)
         col1.metric("Total Units Sold", data['Units Sold'].sum(), border=True)
-        col2.metric("High Demand Medicines", data[data['Units Sold'] > 50]['Medicine Name'].nunique(), border=True)
+        high_demand_medicines = (data.groupby('Medicine Name', as_index=False)['Units Sold'].sum().query("`Units Sold` > 800").nunique())
+        col2.metric("High Demand Medicines", high_demand_medicines['Medicine Name'], border=True)
         col3.metric("Avg Units Sold", round(data['Units Sold'].mean(), 0), border=True)
-        col4.metric("Top Seller", data.loc[data['Units Sold'].idxmax(), 'Medicine Name'], border=True)
+        col4.metric("Top Seller", high_demand_medicines.loc[high_demand_medicines['Units Sold'].idxmax(), 'Medicine Name'], border=True)
         st.divider()
     
         # Charts
