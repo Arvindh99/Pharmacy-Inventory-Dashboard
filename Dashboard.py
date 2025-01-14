@@ -225,7 +225,7 @@ elif st.session_state.selected_section == "💰 Financial Metrics":
         col1, col2, col3, col4 = st.columns(4)
         col1.metric("Avg Cost Price", round(filtered_data['Cost Price ($)'].mean(), 2), border=True)
         col2.metric("Avg Selling Price", round(filtered_data['Selling Price ($)'].mean(), 2), border=True)
-        col3.metric("Total Discounts in %", round(filtered_data['Discount (%)'].mean(), 2), border=True)
+        col3.metric("Avg Discounts in %", round(filtered_data['Discount (%)'].mean(), 2), border=True)
         col4.metric("Profit Margin", round(filtered_data['Profit Margin (%)'].mean(), 2), border=True)
         st.divider()
     
@@ -257,7 +257,7 @@ elif st.session_state.selected_section == "💰 Financial Metrics":
         col1, col2, col3, col4 = st.columns(4)
         col1.metric("Avg Cost Price", round(data['Cost Price ($)'].mean(), 2), "$", border=True)
         col2.metric("Avg Selling Price", round(data['Selling Price ($)'].mean(), 2), "$", border=True)
-        col3.metric("Total Discounts in %", round(data['Discount (%)'].mean(), 2), "%", border=True)
+        col3.metric("Avg Discounts in %", round(data['Discount (%)'].mean(), 2), "%", border=True)
         col4.metric("Profit Margin", round(data['Profit Margin (%)'].mean(), 2), "%", border=True)
     
         # Charts
@@ -321,10 +321,12 @@ elif st.session_state.selected_section == "📈 Performance Metrics":
         # KPI Cards
         col1, col2, col3, col4 = st.columns(4)
         col1.metric("Total Units Sold", filtered_data['Units Sold'].sum(), border=True)
-        high_demand_medicines = (filtered_data.groupby('Medicine Name', as_index=False)['Units Sold'].sum().query("`Units Sold` > 800").nunique())
+        threshold = 0.09 * filtered_data['Units Sold'].sum()
+        high_demand_medicines = (filtered_data.groupby('Medicine Name', as_index=False)['Units Sold'].sum().query("`Units Sold` > @threshold").nunique())
         col2.metric("High Demand Medicines", high_demand_medicines['Medicine Name'], border=True)
         col3.metric("Avg Units Sold", round(filtered_data['Units Sold'].mean(), 0), border=True)
-        col4.metric("Top Seller", filtered_data.loc[filtered_data['Units Sold'].idxmax(), 'Medicine Name'], border=True)
+        top_seller = high_demand_medicines.loc[high_demand_medicines['Units Sold'].idxmax(), 'Medicine Name']
+        col4.metric("Top Seller", top_seller, border=True)
         st.divider()
     
         # Charts
@@ -368,7 +370,7 @@ elif st.session_state.selected_section == "📈 Performance Metrics":
         col4.plotly_chart(fig4, use_container_width=True)
     
         # Bullet Chart for Revenue Target
-        revenue_target = 5000000  # Example revenue target
+        revenue_target = 2 * filtered_data['Total Cost'].sum()  # Example revenue target
         total_revenue = filtered_data['Total Revenue'].sum()
         fig5 = go.Figure(go.Indicator(
             mode="number+gauge+delta",
@@ -394,10 +396,12 @@ elif st.session_state.selected_section == "📈 Performance Metrics":
         # KPI Cards
         col1, col2, col3, col4 = st.columns(4)
         col1.metric("Total Units Sold", data['Units Sold'].sum(), border=True)
-        high_demand_medicines = (data.groupby('Medicine Name', as_index=False)['Units Sold'].sum().query("`Units Sold` > 800").nunique())
+        threshold = 0.09 * data['Units Sold'].sum()
+        high_demand_medicines = (data.groupby('Medicine Name', as_index=False)['Units Sold'].sum().query("`Units Sold` > @threshold").nunique())
         col2.metric("High Demand Medicines", high_demand_medicines['Medicine Name'], border=True)
         col3.metric("Avg Units Sold", round(data['Units Sold'].mean(), 0), border=True)
-        col4.metric("Top Seller", data.loc[data['Units Sold'].idxmax(), 'Medicine Name'], border=True)
+        top_seller = high_demand_medicines.loc[high_demand_medicines['Units Sold'].idxmax(), 'Medicine Name']
+        col4.metric("Top Seller", top_seller, border=True)
         st.divider()
     
         # Charts
@@ -441,7 +445,7 @@ elif st.session_state.selected_section == "📈 Performance Metrics":
         col4.plotly_chart(fig4, use_container_width=True)
     
         # Bullet Chart for Revenue Target
-        revenue_target = 5000000  # Example revenue target
+        revenue_target = 2 * data['Total Cost'].sum()  # Example revenue target
         total_revenue = data['Total Revenue'].sum()
         fig5 = go.Figure(go.Indicator(
             mode="number+gauge+delta",
