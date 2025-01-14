@@ -324,7 +324,7 @@ elif st.session_state.selected_section == "📈 Performance Metrics":
         high_demand_medicines = (filtered_data.groupby('Medicine Name', as_index=False)['Units Sold'].sum().query("`Units Sold` > 800").nunique())
         col2.metric("High Demand Medicines", high_demand_medicines['Medicine Name'], border=True)
         col3.metric("Avg Units Sold", round(filtered_data['Units Sold'].mean(), 0), border=True)
-        col4.metric("Top Seller", high_demand_medicines.loc[high_demand_medicines['Units Sold'].idxmax(), 'Medicine Name'], border=True)
+        col4.metric("Top Seller", filtered_data.loc[filtered_data['Units Sold'].idxmax(), 'Medicine Name'], border=True)
         st.divider()
     
         # Charts
@@ -397,7 +397,7 @@ elif st.session_state.selected_section == "📈 Performance Metrics":
         high_demand_medicines = (data.groupby('Medicine Name', as_index=False)['Units Sold'].sum().query("`Units Sold` > 800").nunique())
         col2.metric("High Demand Medicines", high_demand_medicines['Medicine Name'], border=True)
         col3.metric("Avg Units Sold", round(data['Units Sold'].mean(), 0), border=True)
-        col4.metric("Top Seller", high_demand_medicines.loc[high_demand_medicines['Units Sold'].idxmax(), 'Medicine Name'], border=True)
+        col4.metric("Top Seller", data.loc[data['Units Sold'].idxmax(), 'Medicine Name'], border=True)
         st.divider()
     
         # Charts
