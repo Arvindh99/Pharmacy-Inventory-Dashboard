@@ -324,7 +324,8 @@ elif st.session_state.selected_section == "📈 Performance Metrics":
         threshold = 0.09 * filtered_data['Units Sold'].sum()
         high_demand_medicines = (filtered_data.groupby('Medicine Name', as_index=False)['Units Sold'].sum())
         high_demand_medicines = high_demand_medicines[high_demand_medicines['Units Sold'] > threshold]
-        col2.metric("High Demand Medicines", high_demand_medicines['Medicine Name'], border=True)
+        num_high_demand_medicines = high_demand_medicines['Medicine Name'].nunique()
+        col2.metric("High Demand Medicines", num_high_demand_medicines, border=True)
         col3.metric("Avg Units Sold", round(filtered_data['Units Sold'].mean(), 0), border=True)
         top_seller = high_demand_medicines.loc[high_demand_medicines['Units Sold'].idxmax(), 'Medicine Name']
         col4.metric("Top Seller", top_seller, border=True)
@@ -400,7 +401,8 @@ elif st.session_state.selected_section == "📈 Performance Metrics":
         threshold = 0.09 * data['Units Sold'].sum()
         high_demand_medicines = (data.groupby('Medicine Name', as_index=False)['Units Sold'].sum())
         high_demand_medicines = high_demand_medicines[high_demand_medicines['Units Sold'] > threshold]
-        col2.metric("High Demand Medicines", high_demand_medicines['Medicine Name'], border=True)
+        num_high_demand_medicines = high_demand_medicines['Medicine Name'].nunique()
+        col2.metric("High Demand Medicines", num_high_demand_medicines, border=True)
         col3.metric("Avg Units Sold", round(data['Units Sold'].mean(), 0), border=True)
         top_seller = high_demand_medicines.loc[high_demand_medicines['Units Sold'].idxmax(), 'Medicine Name']
         col4.metric("Top Seller", top_seller, border=True)
